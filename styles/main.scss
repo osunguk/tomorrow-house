@@ -1,11 +1,14 @@
 @import './constants/colors';
 @import './constants/typography';
 
-// @import './base/fonts';
-// @import './base/normalize';
-// @import './base/reset';
+@import './base/fonts';
+@import './base/normalize';
+@import './base/reset';
+
+@import './layouts/grids';
 
 // 암묵적인 컨벤션
+
 $choco: 1;
 $choco-1: 1;
 
