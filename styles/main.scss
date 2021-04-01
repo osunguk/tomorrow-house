@@ -1,3 +1,18 @@
-@import './base/fonts';
-@import './base/normalize';
-@import './base/reset';
+@import './constants/colors';
+
+// @import './base/fonts';
+// @import './base/normalize';
+// @import './base/reset';
+
+// 암묵적인 컨벤션
+$choco: 1;
+$choco-1: 1;
+
+$CHOCO_3: 2;
+$CHOCO: 2;
+
+// scss 의 값으로 넣을 수 있는 모든 값을 할당할 수 있다.
+
+h1 {
+  margin: $CHOCO_3;
+}
