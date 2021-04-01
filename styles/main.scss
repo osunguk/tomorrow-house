@@ -7,9 +7,10 @@
 @import './base/reset';
 
 @import './mixins/responsive';
-@import './layouts/grids';
-
 @import './mixins/text-style';
+@import './mixins/positions';
+
+@import './layouts/grids';
 
 @mixin test($size) {
   background-color: rebeccapurple;
