@@ -7,6 +7,16 @@
 
 @import './layouts/grids';
 
+@import './mixins/text-style';
+
+@mixin test($size) {
+  background-color: rebeccapurple;
+  font-size: $size;
+}
+
+.test {
+  @include test(2rem);
+}
 // 암묵적인 컨벤션
 
 $choco: 1;
@@ -16,7 +26,3 @@ $CHOCO_3: 2;
 $CHOCO: 2;
 
 // scss 의 값으로 넣을 수 있는 모든 값을 할당할 수 있다.
-
-h1 {
-  margin: $CHOCO_3;
-}
